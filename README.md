@@ -1,24 +1,59 @@
-ECOMMERCE PLATFORM 
+# E-Commerce Platform
 
-An end-to-end eCommerce platform built using React.js, Express.js, Node.js, and MongoDB. The platform supports user authentication, product listings, cart management, and order placement — everything needed to run a modern online store.
+A modern, full-stack e-commerce platform built with React and Node.js. This project demonstrates my skills in building scalable web applications with user authentication, shopping cart functionality, and responsive design.
 
-🚀 Features:-
+## Screenshots
 
-👤 User Authentication (Sign up / Login)
+![Alt text](assets/screenshots/image1.png)
+![Alt text](assets/screenshots/image2.png)
+![Alt text](assets/screenshots/image3.png)
+![Alt text](assets/screenshots/image4.png)
+![Alt text](assets/screenshots/image5.png)
 
-🛍️ Product Listing and Filtering
+## Features
 
-🛒 Add to Cart and Cart Management
+- **User Authentication** - Secure registration and login with JWT tokens
+- **Shopping Cart** - Persistent cart management with real-time updates
+- **Product Catalog** - Browse products by categories with search functionality
+- **Responsive Design** - Mobile-first approach with modern UI/UX
+- **RESTful API** - Clean backend architecture with Express.js
+- **State Management** - Context API for global state management
 
-💳 Order Placement and History
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
 
-📦 Admin Panel to manage products and orders (optional)
+### Installation
 
-🌐 Responsive UI with Tailwind CSS
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/ecommerce-platform.git
+   cd ecommerce-platform
+   ```
+
+2. **Install frontend dependencies**
+   ```bash npm install```
+
+3. **Install backend dependencies**
+   ```bash cd server npm install```
+
+4. **Run the application**
+   ```bash
+   # Terminal 1 - Start backend server
+   cd server
+   npm run dev
+
+   # Terminal 2 - Start frontend
+   npm run dev ```
+
+The application will be available at `http://localhost:5173`
 
 
-⚙️ Tech Stack
+## 🔧 Key Implementation Details
 
-Frontend / Backend /	Database
+- **Authentication Flow**: JWT-based authentication with secure password hashing
+- **Cart Management**: Persistent shopping cart using React Context
+- **API Design**: RESTful endpoints for user management and cart operations
+- **Error Handling**: Comprehensive error handling on both frontend and backend
+- **Security**: CORS configuration and input validation
 
-React.js	Node.js + Express	MongoDB	Tailwind CSS, REST APIs
