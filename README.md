@@ -4,11 +4,11 @@ A modern, full-stack e-commerce platform built with React and Node.js. This proj
 
 ## Screenshots
 
-![Alt text](assets/screenshots/image1.png)
-![Alt text](assets/screenshots/image2.png)
-![Alt text](assets/screenshots/image3.png)
-![Alt text](assets/screenshots/image4.png)
-![Alt text](assets/screenshots/image5.png)
+![Home Page](src/assets/screenshots/image1.png)
+![Product Listing](src/assets/screenshots/image2.png)
+![Shopping Cart](src/assets/screenshots/image3.png)
+![User Authentication](src/assets/screenshots/image4.png)
+![Mobile View](src/assets/screenshots/image5.png)
 
 ## Features
 
